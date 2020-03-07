@@ -49,14 +49,11 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 import vizblocksIconURL from './vizblocks/vizblocks.png';
 import vizblocksInsetIconURL from './vizblocks/vizblocks-small.png';
 
-import lineChartImage from './linechart/linechart.png';
-import lineChartButtonImage from './linechart/linechart-small.png';
-
 export default [
     {
         name: 'VizBlocks',
         extensionId: 'vizblocks',
-        collaborator: 'Heng Yeow',
+        collaborator: 'Heng Yeow & Daoyi',
         iconURL: vizblocksIconURL,
         insetIconURL: vizblocksInsetIconURL,
         description: (
@@ -341,24 +338,5 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    },
-    {
-        name: 'LineChart',
-        extensionId: 'linechart',
-        collaborator: 'Wu Daoyi',
-        iconURL: lineChartImage,
-        insetIconURL: lineChartButtonImage,
-        description: (
-            <FormattedMessage
-                defaultMessage="Line Chart"
-                description="Draw line chart"
-                id="gui.extension.linechart.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        internetConnectionRequired: true,
-        bluetoothRequired: false,
-        helpLink: 'https://scratch.mit.edu/wedo'
     }
 ];
